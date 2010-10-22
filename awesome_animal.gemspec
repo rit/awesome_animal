@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rit Li"]
   s.date = %q{2010-10-22}
-  s.description = %q{random animal!}
+  s.description = %q{randomly generate an animal with an adjective!}
   s.email = %q{rit@quietdynamite.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "awesome_animal.gemspec",
      "lib/adjective.txt",
      "lib/animals.txt",
      "lib/awesome_animal.rb",
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{random animal}
+  s.summary = %q{randomly generate an animal with an adjective}
   s.test_files = [
     "spec/awesome_animal_spec.rb",
      "spec/spec_helper.rb"
